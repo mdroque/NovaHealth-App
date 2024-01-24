@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body class="home">
+    <h1>Nova Health</h1>
+    <div class="navigation" id="nav">
+        <nav>
+            <a class="selected" href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="account.html">Account</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="section" id="feelings">
+            <section>
+                <div class="section-summary" id="summary">
+                    <h2>Summary</h2>
+                </div>
+                <div class="section-mood" id="mood">
+                    <h2>🔥 Activity</h2>
+                    <div class="card">
+                        <div class="activity-tracker">
+                            <div class="activity-stats">
+                              <div class="activity-item">
+                                <span class="activity-value">1,3k cal</span>
+                                <span class="activity-label">Move</span>
+                              </div>
+                              <span>|</span>
+                              <div class="activity-item">
+                                <span class="activity-value">1hr 20min</span>
+                                <span class="activity-label">Exercise</span>
+                              </div>
+                              <span>|</span>
+                              <div class="activity-item">
+                                <span class="activity-value">3 hr</span>
+                                <span class="activity-label">Stand</span>
+                              </div>
+                            </div>
+                            <div class="activity-progress">
+                              <!-- Progress bar would be implemented here, possibly with SVG or a canvas element -->
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="section-mood" id="nutri">
+                    <h2>😀 Mood</h2>
+                    <div class="card">
+                        <i class="material-icons"></i>
+                        <i class="material-icons">sentiment_very_dissatisfied</i>
+                        <i class="material-icons">sentiment_dissatisfied</i>
+                        <i class="material-icons selected">sentiment_neutral</i>
+                        <i class="material-icons">sentiment_satisfied</i>
+                        <i class="material-icons">sentiment_very_satisfied</i>
+                    </div>
+                </div>
+                <div class="section-mood" id="mental">
+                    <h2>🧠 Mental</h2>
+                    <div class="card">
+                        <i class="material-icons"></i>
+                        <i class="material-icons">sentiment_very_dissatisfied</i>
+                        <i class="material-icons">sentiment_dissatisfied</i>
+                        <i class="material-icons selected">sentiment_neutral</i>
+                        <i class="material-icons">sentiment_satisfied</i>
+                        <i class="material-icons">sentiment_very_satisfied</i>
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="activity">
+        <div class="card-steps">
+            <h2>👣 Steps</h2> <h3>2024</h3>
+            <div class="card">
+                <div class="chart">
+                    <div class="bar" style="height: 50px;">1,2k</div>
+                    <div class="bar" style="height: 70px;">2,3k</div>
+                    <div class="bar" style="height: 20px;">200</div>
+                    <div class="bar" style="height: 90px;">2,8k</div>
+                    <div class="bar" style="height: 50px;">1,2k</div>
+                    <div class="bar" style="height: 100px;">3,1k</div>
+                    <div class="bar" style="height: 60px;">1,4k</div>
+                    <div class="bar" style="height: 150px;">5,6k</div>
+                    <div class="bar" style="height: 50px;">1k</div>
+                    <div class="bar" style="height: 70px;">2,3k</div>
+                    <div class="bar" style="height: 20px;">200</div>
+                    <div class="bar" style="height: 90px;">2,7k</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="activity-2">
+        <div class="pills">
+            <h2>💊Medication</h2>
+            <div class="container-box-card">
+                <div class="medication-card">
+                    <h4>+</h4>
+                    <p>Ozempic 1mg</p>
+                </div>
+
+                <div class="medication-card-2">
+                    <p>Xanax 1mg</p>
+                    
+                </div>
+
+                <div class="medication-card-3">
+                    <p>Lyrica 1mg</p>
+                    
+                </div>
+
+                <div class="medication-card-4">
+                    <p>duloxetine 30mg</p>
+                    
+                </div>
+
+                <div class="medication-card-5">
+                    <p>Adderall 10mg</p>
+                    
+                </div>
+
+                <div class="medication-card-6">
+                    <p>Olanzapine 5mg</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="heart-rate-card">
+        <section>
+            <div class="section-heart-rate" id="nutri">
+                <h2>🥡 Calories</h2>
+                <p>+</p>
+                <div class="heart">
+                    <div class="bar-heart" id="1" style="height: 300px;">4,2k</div>
+                    <div class="bar-heart" id="2" style="height: 230px;">3,3k</div>
+                    <div class="bar-heart" id="3" style="height: 300px;">4,2k</div>
+                    <div class="bar-heart" id="4" style="height: 300px;">4,2k</div>
+                    <div class="bar-heart" id="5" style="height: 230px;">3,3k</div>
+                    <div class="bar-heart" id="6" style="height: 300px;">4,2k</div>
+                    <div class="bar-heart" id="7" style="height: 130px;">2,3k</div>
+                </div>
+            </div>   
+        </section>
+    </div>
+
+    <div class="profile-container">
+        <section>
+            <div class="profile">
+                <img src="/pics/good-mood.png" alt="" />
+                <H2>Enzo Roux</H2>
+                <p>Age: 22 </p>
+                <p>Gender: Male</p>
+                <p>Height: 180cm</p> 
+                <p>Weight: 75kg</p>
+                <p>BloodType: O+</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
